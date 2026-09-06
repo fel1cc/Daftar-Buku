@@ -12,7 +12,6 @@ Program ini dirancang untuk mensimulasikan alur transaksi kasir toko secara ters
 ## 💻 Contoh Katalog Kode Barang
 
 | Kode Barang | Nama Barang | Harga Satuan |
-| :--- | :--- | :--- |
 | `B123` | Beras 5kg | Rp 65.000 |
 | `M243` | Minyak Goreng 2L | Rp 35.000 |
 | `G865` | Gula 500gr | Rp 9.000 |
