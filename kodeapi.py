@@ -18,7 +18,7 @@ def write_json(data):
         json.dump(data, file, indent=4)
 
 def check_book(data, require_all=True):
-    fields = ["id_buku", "judul", "penulis", "tahun", "stok"]
+    fields = ["id_buku", "judul", "penulis", "tahun", "stok", "penerbit"]
     if require_all:
         for f in fields:
             if f not in data:
@@ -42,6 +42,7 @@ def home():
             "GET /books",
             "GET /books?id=<id_buku>",
             "GET /books?penulis=<nama_penulis>",
+            "GET /books?penerbit=<nama_penerbit>",
             "POST /books",
             "PUT /books",
             "DELETE /books"
