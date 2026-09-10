@@ -18,7 +18,7 @@ def write_json(data):
         json.dump(data, file, indent=4)
 
 def check_book(data, require_all=True):
-    fields = ["id_buku", "judul", "penulis", "tahun", "stok", "penerbit"]
+    fields = ["id_buku", "judul", "penulis", "tahun", "stok", "penerbit", "harga"]
     if require_all:
         for f in fields:
             if f not in data:
