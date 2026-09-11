@@ -19,5 +19,12 @@
         "penulis": "Pramoedya Ananta Toer",
         "tahun": 1980,
         "stok": 4
+    },
+    {
+        "id_buku": 4,
+        "judul": "Negeri 5 Menara",
+        "penulis": "A. Fuadi",
+        "tahun": 2009,
+        "stok": 10
     }
 ]
